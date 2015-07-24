@@ -16,23 +16,25 @@ php artisan mitul.generator:scaffold --breadcrumbs --fromTable --tableName=table
 php artisan mitul.generator:scaffold_api Model --breadcrumbs --fromTable --tableName=table
 ```
 
-**Arquivos Gerados:**
+> **Arquivos Gerados:**
 
-> Migration
-> Model
-> Presenter
-> Repository
-> RepositoryInterface
-> Controller
-> Requests
-> View
-> - index.blade.php
-> - table.blade.php
-> - show.blade.php
-> - show_fields.blade.php
-> - create.blade.php
-> - edit.blade.php
-> - fields.blade.php
+```
+Migration
+Model
+Presenter
+Repository
+RepositoryInterface
+Controller
+Requests
+View
+- index.blade.php
+- table.blade.php
+- show.blade.php
+- show_fields.blade.php
+- create.blade.php
+- edit.blade.php
+- fields.blade.php
+```
 
 Atualiza `routes.php` automaticamente
 
