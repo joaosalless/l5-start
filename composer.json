@@ -43,9 +43,7 @@
         ],
         "psr-4": {
             "App\\": "app/",
-            "Repositories\\": "app/Repositories/",
-            "JansenFelipe\\Utils\\": "app/Libraries/utils/src/",
-            "Mitul\\": "app/Libraries/laravel-api-generator/src/Mitul/"
+            "Repositories\\": "app/Repositories/"
         },
         "files": [
             "app/Http/helpers.php"
