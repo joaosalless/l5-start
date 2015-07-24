@@ -7,6 +7,7 @@ Esqueleto para iniciar um projeto [Laravel](http://laravel.com/) 5.1
 Este esqueleto utiliza [laravel-api-generator (https://github.com/joaosalless/laravel-api-generator)](https://github.com/joaosalless/laravel-api-generator) para geração automatizada de código utilizando comandos como estes:
 
 OBS.: Neste exemplo, tudo é gerado apartir de uma tabela existente no banco de dados.
+
 ```
 php artisan mitul.generator:api --fromTable --tableName=table Model
 
@@ -15,7 +16,8 @@ php artisan mitul.generator:scaffold --breadcrumbs --fromTable --tableName=table
 php artisan mitul.generator:scaffold_api Model --breadcrumbs --fromTable --tableName=table
 ```
 
-> **Arquivos Gerados:**
+**Arquivos Gerados:**
+
 > Migration
 > Model
 > Presenter
