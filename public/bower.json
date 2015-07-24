@@ -1,0 +1,19 @@
+{
+  "name": "l5-start",
+  "version": "0.0.1",
+  "description": "",
+  "authors": [
+    "João Sales"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "admin-lte": "~2.2.0"
+  }
+}

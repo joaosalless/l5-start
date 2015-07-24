@@ -1,0 +1,7 @@
+
+div.box div.box-body.no-padding div.table-responsive.no-border 
+table.table.table-striped.table-bordered.table-condensed  tr th,
+div.box div.box-body.no-padding div.table-responsive.no-border 
+table.table.table-striped.table-bordered.table-condensed  tr td{
+    padding: 5px 10px;
+}
