@@ -1,6 +1,8 @@
 Esqueleto para iniciar um projeto [Laravel](http://laravel.com/) 5.1
 ====================================
 
+[![](https://raw.githubusercontent.com/joaosalless/l5-start/master/public/img/screenshot.png)]
+
 ### Scaffold e API Generator
 Este esqueleto utiliza [laravel-api-generator (https://github.com/joaosalless/laravel-api-generator)](https://github.com/joaosalless/laravel-api-generator) para geração automatizada de código utilizando comandos como estes:
 
