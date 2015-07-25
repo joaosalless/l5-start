@@ -23,7 +23,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('App\Repositories\IEstadoRepository', 'App\Repositories\EstadoRepository');
-        $this->app->bind('App\Repositories\IMunicipioRepository', 'App\Repositories\MunicipioRepository');
+        include_once \Config::get('generator.path_app_bind');
     }
 }

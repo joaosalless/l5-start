@@ -44,6 +44,11 @@ return [
 
 	'path_api_routes'          => app_path('Http/api_routes.php'),
 
+	'path_breadcrumbs'         => app_path('Http/breadcrumbs.php'),
+
+	'path_app_bind'			   => app_path('Providers/register_app_bind.php'),
+
+	'auto_register_app_bind'   => true,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -57,6 +62,8 @@ return [
 	'namespace_model'          => 'App\Models',
 
 	'namespace_presenter'      => 'App\Presenters',
+
+	'namespace_transformer'    => 'App\Transformers',
 
 	'namespace_repository'     => 'App\Repositories',
 
